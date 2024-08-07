@@ -8,7 +8,7 @@ pipeline {
 		      }}
 		stage('Build') {
 	           steps {
-			  sh '/home/kishori/Documents/Devops/apache-tomcat-9.0.82/webapps/bin/mvn install'
+			  sh '/home/kishori/Documents/Devops/apache-maven-3.9.5/bin/mvn install'
 	                 }}
 		stage('Deployment'){
 		   steps {
